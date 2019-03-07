@@ -21,7 +21,7 @@ class EclassViewController: UIViewController, UIWebViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setStatusBarBackgroundColor(color: Colors.inhaColor)
+     setStatusBarStyle(.lightContent)
         eclass.delegate = self
         if let url = URL(string: "http://eclass.inha.uz/servlet/controller.homepage.MainServlet") {
             let request = URLRequest(url: url)

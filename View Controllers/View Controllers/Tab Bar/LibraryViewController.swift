@@ -25,6 +25,7 @@ class LibraryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         booksButton.setGradientBackground(colorOne: Colors.steelblue, colorTwo: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         booksButton.layer.cornerRadius = 20
         booksButton.layer.borderWidth = 0
         booksButton.clipsToBounds = true

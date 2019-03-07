@@ -48,11 +48,12 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad() {
   setStatusBarBackgroundColor(color: Colors.inhaColor)
-      
+        setStatusBarStyle(.lightContent)
+  
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        setStatusBarBackgroundColor(color: Colors.inhaColor)
+         setStatusBarBackgroundColor(color: Colors.inhaColor)
     }
    
     @IBAction func openAll(_ sender: Any) {

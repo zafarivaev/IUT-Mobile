@@ -1,6 +1,6 @@
-
-
 import UIKit
+import RealmSwift
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -10,6 +10,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Thread.sleep(forTimeInterval: 1.0)
+        FirebaseApp.configure()
+        let myDatabase = Database.database().reference()
+        
+        print(Realm.Configuration.defaultConfiguration.fileURL)
+        
+        do {
+            _ = try Realm()
+        } catch {
+            print(error)
+        }
+        
+        // Setting User Defaults
+        let userLoginStatus = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
+        
+        
+        //Directing the user to the right view controller if logged in
+        if userLoginStatus {
+            
+            let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let protectedPage = mainStoryBoard.instantiateViewController(withIdentifier: "first") as! TestViewController
+            window!.rootViewController = protectedPage
+            window!.makeKeyAndVisible()
+
+
+          
+        }
+        
         return true
     }
 

@@ -23,6 +23,7 @@ class MailViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         mail.delegate = self
         if let url = URL(string: "https://mail.inha.uz") {
             let request = URLRequest(url: url)

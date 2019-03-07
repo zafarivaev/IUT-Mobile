@@ -19,6 +19,7 @@ class StaffViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setStatusBarStyle(.lightContent)
         scrollView.contentSize.height = 2500
         
     }

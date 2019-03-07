@@ -20,6 +20,7 @@ class contactController: UIViewController, MFMailComposeViewControllerDelegate, 
         super.viewDidLoad()
         view.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.lightgray)
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         subject.delegate = self
         body.delegate = self
         body.clipsToBounds = true

@@ -18,6 +18,7 @@ class ChatViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         chat.delegate = self
         if let url = URL(string: "https://us23.chatzy.com/46691842168685") {
             let request = URLRequest(url: url)

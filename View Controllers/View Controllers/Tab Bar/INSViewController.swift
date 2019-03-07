@@ -20,6 +20,7 @@ class INSViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         ins.delegate = self
         if let url = URL(string: "http://ins.inha.uz") {
             let request = URLRequest(url: url)

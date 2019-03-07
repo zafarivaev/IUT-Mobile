@@ -25,6 +25,7 @@ class L_FController: UIViewController {
 
         view.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.lightgray)
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         top.dropShadow()
         
         // BUTTON

@@ -11,7 +11,7 @@ class ExamsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setStatusBarStyle(.lightContent)
       
     }
     

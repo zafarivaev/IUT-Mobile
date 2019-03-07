@@ -22,6 +22,7 @@ class janresOfBooksViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
     }
     override var prefersStatusBarHidden: Bool{
         return false

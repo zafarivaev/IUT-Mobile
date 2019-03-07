@@ -36,6 +36,7 @@ class AdmissionViewController: UIViewController {
         super.viewDidLoad()
         scrollView.contentSize.height = 3000
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
     }
     override var prefersStatusBarHidden: Bool{
         return false

@@ -26,6 +26,7 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarStyle(.lightContent)
         let location = CLLocationCoordinate2DMake(41.338696, 69.335076)
         let span = MKCoordinateSpan(latitudeDelta: 0.007, longitudeDelta: 0.007)
         let region = MKCoordinateRegion(center: location, span: span)

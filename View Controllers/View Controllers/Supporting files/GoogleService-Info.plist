@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>590948302620-uvv8o8pdunddghvnjmv49r9pr0ctcero.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.590948302620-uvv8o8pdunddghvnjmv49r9pr0ctcero</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5Pc_DRz2MEZWlnx4JrJPmC6Csp8a0T2I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>590948302620</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iutmobile.zafar</string>
+	<key>PROJECT_ID</key>
+	<string>iut-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iut-mobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:590948302620:ios:01b9c71f7d83a9fd</string>
+	<key>DATABASE_URL</key>
+	<string>https://iut-mobile.firebaseio.com</string>
+</dict>
+</plist>
