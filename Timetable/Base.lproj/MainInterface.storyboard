@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NjJ-Rj-ovd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Timetable-->
+        <scene sceneID="1oH-2R-uHM">
+            <objects>
+                <tableViewController storyboardIdentifier="timetableRows" title="Timetable" id="NjJ-Rj-ovd" customClass="TodayViewController" customModule="Timetable" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="52" sectionHeaderHeight="28" sectionFooterHeight="28" id="Klc-X1-rCL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WidgetCell" rowHeight="40" id="CT3-et-2br" customClass="WidgetCell" customModule="Timetable" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CT3-et-2br" id="rKC-6f-NQx">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="fsY-cy-4FE">
+                                            <rect key="frame" x="16" y="8" width="99.5" height="24"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Start " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9A-At-PSb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="49" height="24"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" red="0.054901960780000002" green="0.4039215686" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRh-zq-HbX">
+                                                    <rect key="frame" x="52" y="0.0" width="9" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.16078431369999999" green="0.4039215686" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="End" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i8-hB-6OX">
+                                                    <rect key="frame" x="64" y="0.0" width="35.5" height="24"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" red="0.054901960780000002" green="0.4039215686" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="rMk-xo-0zC">
+                                            <rect key="frame" x="263.5" y="8" width="95.5" height="23.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJ4-Ij-U7V">
+                                                    <rect key="frame" x="0.0" y="0.0" width="37.5" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <color key="textColor" red="0.027787541369999998" green="0.21609600230000001" blue="0.3712920368" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Room" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWq-hk-VXl">
+                                                    <rect key="frame" x="41.5" y="0.0" width="54" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rMk-xo-0zC" firstAttribute="centerY" secondItem="rKC-6f-NQx" secondAttribute="centerY" id="3Uw-hC-ulS"/>
+                                        <constraint firstItem="rMk-xo-0zC" firstAttribute="trailing" secondItem="rKC-6f-NQx" secondAttribute="trailingMargin" id="A97-Yc-Ykp"/>
+                                        <constraint firstItem="fsY-cy-4FE" firstAttribute="leading" secondItem="rKC-6f-NQx" secondAttribute="leadingMargin" id="GDP-WI-TFs"/>
+                                        <constraint firstItem="fsY-cy-4FE" firstAttribute="centerY" secondItem="rKC-6f-NQx" secondAttribute="centerY" id="nT2-a5-j0k"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="end" destination="5i8-hB-6OX" id="Mkb-LZ-UlB"/>
+                                    <outlet property="room" destination="yWq-hk-VXl" id="mVE-zm-nhB"/>
+                                    <outlet property="start" destination="D9A-At-PSb" id="UUl-B3-PzL"/>
+                                    <outlet property="title" destination="qJ4-Ij-U7V" id="k3x-FA-X47"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="NjJ-Rj-ovd" id="eBN-BX-1dg"/>
+                            <outlet property="delegate" destination="NjJ-Rj-ovd" id="A1D-Q5-6yR"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Timetable" image="Timetable" id="Sc9-ze-PYK"/>
+                    <navigationItem key="navigationItem" title="Exams" id="lgj-l8-fm9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zm0-kh-aup" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712.79999999999995" y="773.16341829085468"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Timetable" width="30" height="30"/>
+    </resources>
+</document>

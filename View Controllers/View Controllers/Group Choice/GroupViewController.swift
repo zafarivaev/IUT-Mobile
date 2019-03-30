@@ -15,9 +15,17 @@ class GroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     @IBAction func choseGroup(_ sender: UIButton) {
         print(choosenGroup)
-        UserDefaults.standard.set("\(choosenGroup)", forKey: "chosenGroup")
-        UserDefaults.standard.synchronize()
         
+     
+        UserDefaults.standard.set("\(choosenGroup)", forKey: "chosenGroup")
+    
+        
+        
+        
+        UserDefaults.init(suiteName: "group.com.zafar.timetable")?.setValue("\(choosenGroup)", forKey: "chosenGroup")
+        
+        UserDefaults.standard.synchronize()
+       
         if UserDefaults.standard.string(forKey: "chosenType") == "List"{
             
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "firstList") as! ListTabBarViewController

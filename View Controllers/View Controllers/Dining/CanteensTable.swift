@@ -18,7 +18,7 @@ class CanteensTable: UITableViewController {
     func setStatusBarBackgroundColor(color: UIColor) {
         
         guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
-        statusBar.backgroundColor = Colors.test
+        statusBar.backgroundColor = Colors.alizarin
         
     }
     
@@ -32,13 +32,12 @@ class CanteensTable: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setStatusBarBackgroundColor(color: Colors.test)
-        
+        setStatusBarBackgroundColor(color: Colors.alizarin)
+        setStatusBarStyle(.lightContent)
     }
+   
     
-    override var preferredStatusBarStyle: UIStatusBarStyle{
-        return .default
-    }
+  
     
     // MARK: - Table view data source
     

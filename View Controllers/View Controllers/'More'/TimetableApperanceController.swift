@@ -18,7 +18,7 @@ class TimetableAppearanceController: UIViewController, UIPickerViewDelegate, UIP
         UserDefaults.standard.set("\(chosenType)", forKey: "chosenType")
         UserDefaults.standard.synchronize()
         
-        if UserDefaults.standard.string(forKey: "chosenType") == "List"{
+        if UserDefaults.standard.string(forKey: "chosenType") == "Lists"{
             
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "firstList") as! ListTabBarViewController
         present(vc, animated: true, completion: nil)
@@ -96,7 +96,7 @@ class TimetableAppearanceController: UIViewController, UIPickerViewDelegate, UIP
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        buttonChoose.setTitle("Choose",for: .normal)
+        buttonChoose.setTitle("Choose!",for: .normal)
     }
     /*
      // MARK: - Navigation

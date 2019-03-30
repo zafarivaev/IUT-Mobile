@@ -13,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var window: UIWindow?
     let gcmMessageIDKey = "gcm.message_id"
     
+    
+    
     func applicationReceivedRemoteMessage(_ remoteMessage: MessagingRemoteMessage) {
         print(remoteMessage.appData)
     }
@@ -46,6 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
        
         
         Thread.sleep(forTimeInterval: 1.0)
+        
+       
         
         FirebaseApp.configure()
         
@@ -109,6 +113,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         if FirebaseApp.app() == nil {
             FirebaseApp.configure()
         }
+        
+        //Timetable Widget
+       
         
         return true
     }

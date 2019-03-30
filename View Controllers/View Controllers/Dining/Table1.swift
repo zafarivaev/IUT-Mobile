@@ -22,37 +22,37 @@ class Table1: UITableViewController {
     func setStatusBarBackgroundColor(color: UIColor) {
         
         guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
-        statusBar.backgroundColor = Colors.test
+        statusBar.backgroundColor = Colors.alizarin
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setStatusBarBackgroundColor(color: Colors.test)
+        setStatusBarBackgroundColor(color: Colors.alizarin)
+        setStatusBarStyle(.lightContent)
         
+        let food1 = Food(imageName: "pilav.jpg", description: "Pilav", moreInfo: "Meat, onions, carrot, rise, oil, spice.\n\n\nPrice: 10,000\n\n\n*Original Photo", price: "10,000")
         
-        let food1 = Food(imageName: "pilav.jpg", description: "Pilav", moreInfo: "Meat, onions, carrot, rise, oil, spice.\n\n\nPrice: 10,000", price: "10,000")
+        let food2 = Food(imageName: "Cutlet with spices.jpg", description: "Cutlet with spices", moreInfo: "A meat ball; You can choose up to three species.\n\n\nPrice: 10,000\n\n\n*Original Photo", price: "10,000")
         
-        let food2 = Food(imageName: "Cutlet with spices.jpg", description: "Cutlet with spices", moreInfo: "A meat ball; You can choose up to three species.\n\n\nPrice: 10,000", price: "10,000")
+        let food3 = Food(imageName: "Chicken Kiev.jpg", description: "Chicken Kiev", moreInfo: "A Chicken meat ball made by Kiev recepie; You can choose up to three species.\n\n\nPrice: 10,000\n\n\n*Original Photo", price: "10,000")
         
-        let food3 = Food(imageName: "Chicken Kiev.jpg", description: "Chicken Kiev", moreInfo: "A Chicken meat ball made by Kiev recepie; You can choose up to three species.\n\n\nPrice: 10,000", price: "10,000")
+        let food4 = Food(imageName: "Barbeque.jpeg", description: "Barbeque", moreInfo: "Meat peaces with some species. You can choose up to three species.\n\n\nPrice: 11,000\n\n\n*Original Photo", price: "11,000")
         
-        let food4 = Food(imageName: "Barbeque.jpeg", description: "Barbeque", moreInfo: "Meat peaces with some species. You can choose up to three species.\n\n\nPrice: 11,000", price: "11,000")
+        let food5 = Food(imageName: "Brizol.jpeg", description: "Brigole with spices", moreInfo: "Mutton/Chicken chop with species. You can choose up to three species.\n\n\nPrice: 11,000\n\n\n*Original Photo", price: "11,000")
         
-        let food5 = Food(imageName: "Brizol.jpeg", description: "Brigole with spices", moreInfo: "Mutton/Chicken chop with species. You can choose up to three species.\n\n\nPrice: 11,000", price: "11,000")
+        let food6 = Food(imageName: "norin.jpg", description: "Norin", moreInfo: "Meat, noodles, spices, kazi.\n\n\nPrice: 11,000\n\n\n*Photo taken from the Internet", price: "11,000")
         
-        let food6 = Food(imageName: "norin.jpg", description: "Norin", moreInfo: "Meat, noodles, spices, kazi.\n\n\nPrice: 11,000", price: "11,000")
+        let food7 = Food(imageName: "курица-с-грибами.jpg", description: "Chicken with mushroom and species", moreInfo: "Square cut chicken with mushroom and rice.\n\n\nPrice: 11,000\n\n\n*Photo taken from the Internet", price: "11,000")
         
-        let food7 = Food(imageName: "курица-с-грибами.jpg", description: "Chicken with mushroom and species", moreInfo: "Square cut chicken with mushroom and rice.\n\n\nPrice: 11,000", price: "11,000")
+        let food8 = Food(imageName: "chickenWITHpotatoes.jpg", description: "Chicken with potatoes", moreInfo: "Roasted chicken with french fries.\n\n\nPrice: 11,000\n\n\n*Photo taken from the Internet", price: "11,000")
         
-        let food8 = Food(imageName: "chickenWITHpotatoes.jpg", description: "Chicken with potatoes", moreInfo: "Roasted chicken with french fries.\n\n\nPrice: 11,000", price: "11,000")
+        let food9 = Food(imageName: "tibia.jpg", description: "Baked tibia", moreInfo: "Baked tibia with french fries.\n\n\nPrice: 13,000\n\n\n*Photo taken from the Internet", price: "13,000")
         
-        let food9 = Food(imageName: "tibia.jpg", description: "Baked tibia", moreInfo: "Baked tibia with french fries.\n\n\nPrice: 13,000", price: "13,000")
+        let food10 = Food(imageName: "riceFrenchfries.jpg", description: "Side dish", moreInfo: "Rice with french fries\n\n\nPrice: 7,000\n\n\n*Original Photo", price: "7,000")
         
-        let food10 = Food(imageName: "riceFrenchfries.jpg", description: "Side dish", moreInfo: "Rice with french fries\n\n\nPrice: 7,000", price: "7,000")
+        let food11 = Food(imageName: "riceMashBuckwheat.jpg", description: "Side dish", moreInfo: "Rice, Mash, Buckwheat\n\n\nPrice: 7,000\n\n\n*Original Photo", price: "7,000")
         
-        let food11 = Food(imageName: "riceMashBuckwheat.jpg", description: "Side dish", moreInfo: "Rice, Mash, Buckwheat\n\n\nPrice: 7,000", price: "7,000")
-        
-        let food12 = Food(imageName: "buckwheatMash.jpg", description: "Side dish", moreInfo: "Buckwheat, Mash.\n\n\nPrice: 7,000", price: "7,000")
+        let food12 = Food(imageName: "buckwheatMash.jpg", description: "Side dish", moreInfo: "Buckwheat, Mash.\n\n\nPrice: 7,000\n\n\n*Original Photo", price: "7,000")
         
         
         foodArray.append(food1)
@@ -115,5 +115,4 @@ class Table1: UITableViewController {
         self.present(detailVC, animated: true, completion: nil)
         
     }
-    
 }
