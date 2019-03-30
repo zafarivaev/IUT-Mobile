@@ -8,8 +8,13 @@ target 'IUT Mobile' do
 
 pod 'SpreadsheetView'
 pod 'Firebase'
+pod 'Alamofire'
+pod 'SwiftyJSON'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+pod 'Firebase/InAppMessagingDisplay'
 pod 'SVProgressHUD'
 pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 pod 'RealmSwift'

@@ -27,6 +27,6 @@ struct Colors{
     static let alizarin = UIColor(red: 231.0/255.0, green: 76.0/255.0, blue: 60.0/255.0, alpha: 1.0)
     static let pumpkin = UIColor(red: 211.0/255.0, green: 24.0/255.0, blue: 0.0/255.0, alpha: 1.0)
     static let test = UIColor(red: 211.0/255.0, green: 84.0/255.0, blue: 0.0/255.0, alpha: 1.0)
-    static let evenRowColor = UIColor(red: 116.0/255.0, green: 185.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+    static let evenRowColor = UIColor(red: 14.0/255.0, green: 103.0/255.0, blue: 177.0/255.0, alpha: 0.7) //UIColor(red: 116.0/255.0, green: 185.0/255.0, blue: 255.0/255.0, alpha: 1.0)
     static let oddRowColor = UIColor(red: 223.0/255.0, green: 230.0/255.0, blue: 233.0/255.0, alpha: 1.0)
 }

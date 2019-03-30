@@ -8,12 +8,12 @@
 import UIKit
 
 class canCell: UITableViewCell {
-
+    
     @IBOutlet weak var canteenImage: UIImageView!
     
     @IBOutlet weak var canteenLabel: UILabel!
     
-
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,11 +21,12 @@ class canCell: UITableViewCell {
         canteenImage.layer.borderWidth = 0
         canteenImage.clipsToBounds = true
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }
+

@@ -23,14 +23,16 @@ class ToDoListViewController: SwipeTableViewController {
         }
     }
     
-    
+    func setStatusBarBackgroundColor(color: UIColor) {
+        
+        guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
+        statusBar.backgroundColor = navigationController?.navigationBar.barTintColor
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.separatorStyle = .none
-        
-        
+        tableView.separatorStyle = .none        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,11 +42,13 @@ class ToDoListViewController: SwipeTableViewController {
         guard let colorHex = selectedCategory?.color else {fatalError()}
         
         updateNavBar(withHexCode: colorHex)
+        setStatusBarBackgroundColor(color: (navigationController?.navigationBar.barTintColor)!)
     }
     
+ 
     override func viewWillDisappear(_ animated: Bool) {
         
-        
+        setStatusBarBackgroundColor(color: Colors.inhaColor)
         updateNavBar(withHexCode: "2967AB")
         
     }
@@ -159,9 +163,6 @@ class ToDoListViewController: SwipeTableViewController {
             alertTextField.placeholder = "Create new Item"
             textField = alertTextField
             
-        }
-        alert.addTextField { (textField) in
-          
         }
         
         alert.addAction(action)

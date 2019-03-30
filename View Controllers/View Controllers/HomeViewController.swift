@@ -9,9 +9,10 @@
 import UIKit
 import SafariServices
 import MessageUI
+import UserNotifications
+
 
 class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-    
     
     func setStatusBarBackgroundColor(color: UIColor) {
         
@@ -68,21 +69,21 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     // DATA FOR NEWS
     
-    let items = ["IUT students won the city stage of the contest" ,"IUT to host Angular Tashkent Meetup", "Inha University in Tashkent to hold Open Doors Day", "IUT professor appointed as Executive Director for the NRNU MEPhI"]
+    let items = ["IUT goes to the regions!" ,"The IUT hosted an event in the bases of the Central Asian Week \"Women in Science and Technology\"", "Navruz holiday", "IUT Professor delivered a talk in Global Symposium held at Baku, Azerbaijan"]
     
-    let dates = ["February 13, 2019","February 8, 2019","February 8, 2019","February 7, 2019"]
+    let dates = ["March 27, 2019","March 26, 2019","March 20, 2019","March 19, 2019"]
    
     var logoImage: [UIImage] = [
-        UIImage(named: "wonContest.jpg")!,
-        UIImage(named: "Angular.jpg")!,
-        UIImage(named: "Open.jpg")!,
-        UIImage(named: "Mephi.jpg")!
+        UIImage(named: "regions.jpg")!,
+        UIImage(named: "women.jpg")!,
+        UIImage(named: "navroz.jpg")!,
+        UIImage(named: "baku.jpg")!
     ]
-    let links: [String] = ["https://inha.uz/en/news/752/","https://inha.uz/en/news/751/","https://inha.uz/en/news/750/","https://inha.uz/en/news/749/"]
+    let links: [String] = ["https://inha.uz/en/news/788/","https://inha.uz/en/news/787/","https://inha.uz/en/news/786/","https://inha.uz/en/news/785/"]
     
     // DATA FOR MENU
     
-    let menuItems = ["Exams","Dining","Map","Contact Us!","INS","Lost & Found"]
+    let menuItems = ["Exams","Dining","Map","Contact Us!","INS","Planner"]
     
     var menuImage: [UIImage] = [
     UIImage(named: "Exams")!,
@@ -90,7 +91,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     UIImage(named: "Map")!,
     UIImage(named: "Contact Us")!,
     UIImage(named: "INS")!,
-    UIImage(named: "Lost")!
+    UIImage(named: "Planner")!
     ]
     
     let newsLinks: [String] = [""]
@@ -144,7 +145,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             cell2.layer.shadowOffset = CGSize(width: 0, height: 2.0)
             cell2.layer.shadowRadius = 2.0
             cell2.layer.shadowOpacity = 1.0
-            cell2.layer.masksToBounds = false
+            cell2.layer.masksToBounds = true
             cell2.layer.shadowPath = UIBezierPath(roundedRect:cell2.bounds, cornerRadius:cell2.contentView.layer.cornerRadius).cgPath
             
             return cell2
@@ -213,7 +214,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
             }
             if indexPath.item == 5{
                 
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "LF") as! L_FController
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "planner") as! navigationController
                 
                 present(vc, animated: true, completion: nil)
             }
@@ -224,4 +225,5 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
 
 
 }
+
 

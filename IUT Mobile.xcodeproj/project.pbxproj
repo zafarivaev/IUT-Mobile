@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C072E022230DAA000C30E30 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C072E012230DAA000C30E30 /* TestViewController.swift */; };
+		1C072E022230DAA000C30E30 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C072E012230DAA000C30E30 /* TabBarViewController.swift */; };
 		1C072E042230DF9100C30E30 /* startingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C072E032230DF9100C30E30 /* startingNav.swift */; };
 		1C27941C221AD35B006D2ABD /* LinkiningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C27941B221AD35B006D2ABD /* LinkiningController.swift */; };
 		1C279420221ADEB1006D2ABD /* Table2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C27941F221ADEB1006D2ABD /* Table2.swift */; };
 		1C279422221ADEF7006D2ABD /* Table3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C279421221ADEF7006D2ABD /* Table3.swift */; };
 		1C30A414221AACA200F28673 /* CanteensTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30A413221AACA200F28673 /* CanteensTable.swift */; };
 		1C30A416221AAE8900F28673 /* canCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30A415221AAE8900F28673 /* canCell.swift */; };
+		1C43E01D22467D330098D6E1 /* TimetableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C43E01C22467D330098D6E1 /* TimetableCell.swift */; };
+		1C43E01F22467D430098D6E1 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C43E01E22467D430098D6E1 /* TimetableViewController.swift */; };
+		1C43E02422468C1B0098D6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C43E02322468C1B0098D6E1 /* ViewController.swift */; };
 		1C570F72221D41C1008EE90C /* L&FController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C570F71221D41C1008EE90C /* L&FController.swift */; };
+		1C7D5AF4223E40B900846127 /* navigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D5AF3223E40B900846127 /* navigationController.swift */; };
+		1C7D5AF6223EA1D300846127 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D5AF5223EA1D300846127 /* RequestViewController.swift */; };
 		1C8EAC422217F28800A024FE /* contactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EAC412217F28800A024FE /* contactController.swift */; };
 		1C8EAC44221801BF00A024FE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EAC43221801BF00A024FE /* Colors.swift */; };
 		1C8EAC46221801D800A024FE /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EAC45221801D800A024FE /* Gradient.swift */; };
@@ -28,6 +33,7 @@
 		1C9118C1221A9DDA001C4DE8 /* Table1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9118C0221A9DDA001C4DE8 /* Table1.swift */; };
 		1C9118C3221A9DFC001C4DE8 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9118C2221A9DFC001C4DE8 /* myCell.swift */; };
 		1C9118C5221A9E30001C4DE8 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9118C4221A9E30001C4DE8 /* Detail.swift */; };
+		1CA5402D22368E8A00520F3A /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5402C22368E8A00520F3A /* GroupViewController.swift */; };
 		1CAC16102215B898000A4DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9AA6E72215B70B005C912E /* LaunchScreen.storyboard */; };
 		1CAC16172215B8CA000A4DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9AA6E42215B70B005C912E /* Assets.xcassets */; };
 		1CAC16192215B8CA000A4DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9AA6E92215B70B005C912E /* Main.storyboard */; };
@@ -53,6 +59,8 @@
 		1CD0E57F222D8B7500A689BE /* ExamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */; };
 		1CD0E581222D8C5200A689BE /* ExamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0E580222D8C5200A689BE /* ExamsCell.swift */; };
 		1CD0E585222DA4AE00A689BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0E584222DA4AE00A689BE /* GoogleService-Info.plist */; };
+		1CF2D1F32247D5030076C331 /* TimetableApperanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2D1F22247D5030076C331 /* TimetableApperanceController.swift */; };
+		1CF2D1F52247D9300076C331 /* ListTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2D1F42247D9300076C331 /* ListTabBarViewController.swift */; };
 		DEE2F51B0ACB46E09E6F0746 /* Pods_IUT_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB290695CA7ECB75CFDA5FAD /* Pods_IUT_Mobile.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,14 +75,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C072E012230DAA000C30E30 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		1C072E012230DAA000C30E30 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1C072E032230DF9100C30E30 /* startingNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startingNav.swift; sourceTree = "<group>"; };
+		1C1A87B822342842006F35CC /* IUT Mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IUT Mobile.entitlements"; sourceTree = "<group>"; };
 		1C27941B221AD35B006D2ABD /* LinkiningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkiningController.swift; sourceTree = "<group>"; };
 		1C27941F221ADEB1006D2ABD /* Table2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table2.swift; sourceTree = "<group>"; };
 		1C279421221ADEF7006D2ABD /* Table3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table3.swift; sourceTree = "<group>"; };
 		1C30A413221AACA200F28673 /* CanteensTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteensTable.swift; sourceTree = "<group>"; };
 		1C30A415221AAE8900F28673 /* canCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canCell.swift; sourceTree = "<group>"; };
+		1C43E01C22467D330098D6E1 /* TimetableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCell.swift; sourceTree = "<group>"; };
+		1C43E01E22467D430098D6E1 /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
+		1C43E02322468C1B0098D6E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/zafar/Desktop/IUT Mobile2/View Controllers/View Controllers/Exams/ViewController.swift"; sourceTree = "<absolute>"; };
 		1C570F71221D41C1008EE90C /* L&FController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L&FController.swift"; sourceTree = "<group>"; };
+		1C7D5AF3223E40B900846127 /* navigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationController.swift; sourceTree = "<group>"; };
+		1C7D5AF5223EA1D300846127 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 		1C8EAC412217F28800A024FE /* contactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactController.swift; sourceTree = "<group>"; };
 		1C8EAC43221801BF00A024FE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1C8EAC45221801D800A024FE /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
@@ -99,12 +113,12 @@
 		1C9AA6EA2215B70B005C912E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C9AA6EB2215B70B005C912E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C9AA6EC2215B70B005C912E /* Info1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info1.plist; sourceTree = "<group>"; };
+		1CA5402C22368E8A00520F3A /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		1CAC160C2215B85C000A4DCB /* IUT Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IUT Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAC16292215CD2E000A4DCB /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		1CADDEF3222DA9810072E413 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1CADDEF5222DA99F0072E413 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		1CADDEF7222DA9BE0072E413 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		1CADDF1A222EE5670072E413 /* IUT MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUT MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CADDF1B222EEE000072E413 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1CADDF1D222EEE0A0072E413 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1CADDF1F222EEE1A0072E413 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +130,9 @@
 		1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsViewController.swift; sourceTree = "<group>"; };
 		1CD0E580222D8C5200A689BE /* ExamsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsCell.swift; sourceTree = "<group>"; };
 		1CD0E584222DA4AE00A689BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUT MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF2D1F22247D5030076C331 /* TimetableApperanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableApperanceController.swift; sourceTree = "<group>"; };
+		1CF2D1F42247D9300076C331 /* ListTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTabBarViewController.swift; sourceTree = "<group>"; };
 		2FDF9E43BC439D7F648457F5 /* Pods-IUT Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IUT Mobile.release.xcconfig"; path = "Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		62F4B4AA43940952BAD6E802 /* Pods-IUT Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IUT Mobile.debug.xcconfig"; path = "Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		BB290695CA7ECB75CFDA5FAD /* Pods_IUT_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IUT_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +157,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C43E02022467D5F0098D6E1 /* Timetable Rows */ = {
+			isa = PBXGroup;
+			children = (
+				1C43E01C22467D330098D6E1 /* TimetableCell.swift */,
+				1C43E01E22467D430098D6E1 /* TimetableViewController.swift */,
+			);
+			path = "Timetable Rows";
+			sourceTree = "<group>";
+		};
 		1C9118BD221A9D5E001C4DE8 /* Dining */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,15 +189,15 @@
 				1C9AA6E62215B70B005C912E /* HomeViewController.swift */,
 				1CB58F4F222AEB9300A1352F /* 'More' */,
 				1C9AA6E92215B70B005C912E /* Main.storyboard */,
-				1C072E012230DAA000C30E30 /* TestViewController.swift */,
+				1CC38D41223A127A00ECA4C9 /* Group Choice */,
+				1C072E012230DAA000C30E30 /* TabBarViewController.swift */,
+				1CF2D1F42247D9300076C331 /* ListTabBarViewController.swift */,
 				1CADDF26222EEE4C0072E413 /* Planner Data Model */,
 				1CADDF25222EEE3F0072E413 /* Planner VC's */,
 				1CADDEF9222DB5490072E413 /* Authentication */,
-				1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */,
-				1CD0E580222D8C5200A689BE /* ExamsCell.swift */,
-				1CB58F50222AEC3600A1352F /* Cells.swift */,
-				1CB58F52222AEC5F00A1352F /* ScheduleController.swift */,
-				1C27941B221AD35B006D2ABD /* LinkiningController.swift */,
+				1CAC5B342237932300555F96 /* Exams */,
+				1C43E02022467D5F0098D6E1 /* Timetable Rows */,
+				1CAC5B332237931600555F96 /* Timetable Table */,
 				1C9118BD221A9D5E001C4DE8 /* Dining */,
 				1CB58F4D222AEB6600A1352F /* Supporting files */,
 				1CB58F4E222AEB7F00A1352F /* Cell */,
@@ -195,6 +221,26 @@
 			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
+		1CAC5B332237931600555F96 /* Timetable Table */ = {
+			isa = PBXGroup;
+			children = (
+				1CB58F50222AEC3600A1352F /* Cells.swift */,
+				1CB58F52222AEC5F00A1352F /* ScheduleController.swift */,
+				1C27941B221AD35B006D2ABD /* LinkiningController.swift */,
+			);
+			path = "Timetable Table";
+			sourceTree = "<group>";
+		};
+		1CAC5B342237932300555F96 /* Exams */ = {
+			isa = PBXGroup;
+			children = (
+				1C43E02322468C1B0098D6E1 /* ViewController.swift */,
+				1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */,
+				1CD0E580222D8C5200A689BE /* ExamsCell.swift */,
+			);
+			path = Exams;
+			sourceTree = "<group>";
+		};
 		1CADDEF9222DB5490072E413 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +255,7 @@
 		1CADDF25222EEE3F0072E413 /* Planner VC's */ = {
 			isa = PBXGroup;
 			children = (
+				1C7D5AF3223E40B900846127 /* navigationController.swift */,
 				1CADDF1F222EEE1A0072E413 /* ToDoListViewController.swift */,
 				1CADDF21222EEE240072E413 /* CategoryViewController.swift */,
 				1CADDF23222EEE350072E413 /* SwipeTableViewController.swift */,
@@ -250,12 +297,22 @@
 		1CB58F4F222AEB9300A1352F /* 'More' */ = {
 			isa = PBXGroup;
 			children = (
+				1C7D5AF5223EA1D300846127 /* RequestViewController.swift */,
+				1CF2D1F22247D5030076C331 /* TimetableApperanceController.swift */,
 				1C9AA6E12215B70B005C912E /* MoreViewController.swift */,
 				1C9118B92219EDD5001C4DE8 /* AdmissionViewController.swift */,
 				1C9118B52219EC6A001C4DE8 /* janresOfBooksViewController.swift */,
 				1C9118B12219EB96001C4DE8 /* StaffViewController.swift */,
 			);
 			path = "'More'";
+			sourceTree = "<group>";
+		};
+		1CC38D41223A127A00ECA4C9 /* Group Choice */ = {
+			isa = PBXGroup;
+			children = (
+				1CA5402C22368E8A00520F3A /* GroupViewController.swift */,
+			);
+			path = "Group Choice";
 			sourceTree = "<group>";
 		};
 		C0CBE31BE45B34FAC3A2D518 /* Pods */ = {
@@ -278,11 +335,12 @@
 		EE32B4AF1FA2243A00890892 = {
 			isa = PBXGroup;
 			children = (
+				1C1A87B822342842006F35CC /* IUT Mobile.entitlements */,
 				EE32B4BA1FA2243A00890892 /* View Controllers */,
 				1CAC160C2215B85C000A4DCB /* IUT Mobile.app */,
 				C0CBE31BE45B34FAC3A2D518 /* Pods */,
 				D018CC71E031D83471785AC9 /* Frameworks */,
-				1CADDF1A222EE5670072E413 /* IUT MobileTests.xctest */,
+				1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -306,6 +364,7 @@
 				EE32B4B51FA2243A00890892 /* Frameworks */,
 				1CAC160D2215B885000A4DCB /* Resources */,
 				4EE2DD4A2A264385DD6442F0 /* [CP] Embed Pods Frameworks */,
+				27CB0809FCDDE6D3CFE4EA81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +390,7 @@
 			);
 			name = "IUT MobileTests";
 			productName = "To Do ListTests";
-			productReference = 1CADDF1A222EE5670072E413 /* IUT MobileTests.xctest */;
+			productReference = 1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -347,11 +406,18 @@
 					EE32B4B71FA2243A00890892 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					EE32B4CB1FA2243A00890892 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EE32B4B71FA2243A00890892;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -396,6 +462,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		27CB0809FCDDE6D3CFE4EA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessagingDisplay/InAppMessagingDisplayResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4C3620C8184CF87C09E38CEE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,13 +515,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -442,13 +533,16 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpreadsheetView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -481,24 +575,31 @@
 				1CD0E581222D8C5200A689BE /* ExamsCell.swift in Sources */,
 				1C279422221ADEF7006D2ABD /* Table3.swift in Sources */,
 				1CB58F51222AEC3600A1352F /* Cells.swift in Sources */,
-				1C072E022230DAA000C30E30 /* TestViewController.swift in Sources */,
+				1C072E022230DAA000C30E30 /* TabBarViewController.swift in Sources */,
 				1C279420221ADEB1006D2ABD /* Table2.swift in Sources */,
 				1CADDEF4222DA9810072E413 /* RegisterViewController.swift in Sources */,
 				1CAC162A2215CD2E000A4DCB /* MenuCollectionViewCell.swift in Sources */,
 				1C30A416221AAE8900F28673 /* canCell.swift in Sources */,
+				1C43E01F22467D430098D6E1 /* TimetableViewController.swift in Sources */,
 				1CADDF20222EEE1A0072E413 /* ToDoListViewController.swift in Sources */,
 				1CAC16202215B9BD000A4DCB /* MoreViewController.swift in Sources */,
 				1CAC16212215B9BD000A4DCB /* MailViewController.swift in Sources */,
 				1C9118BF221A9D75001C4DE8 /* food.swift in Sources */,
+				1C7D5AF4223E40B900846127 /* navigationController.swift in Sources */,
+				1CF2D1F32247D5030076C331 /* TimetableApperanceController.swift in Sources */,
 				1C9118BA2219EDD5001C4DE8 /* AdmissionViewController.swift in Sources */,
 				1CADDF24222EEE350072E413 /* SwipeTableViewController.swift in Sources */,
 				1C9118B62219EC6A001C4DE8 /* janresOfBooksViewController.swift in Sources */,
+				1C43E02422468C1B0098D6E1 /* ViewController.swift in Sources */,
+				1C43E01D22467D330098D6E1 /* TimetableCell.swift in Sources */,
 				1CAC16232215B9BD000A4DCB /* CollectionViewCell.swift in Sources */,
 				1CADDF1C222EEE000072E413 /* Category.swift in Sources */,
 				1CD0E57F222D8B7500A689BE /* ExamsViewController.swift in Sources */,
+				1C7D5AF6223EA1D300846127 /* RequestViewController.swift in Sources */,
 				1C30A414221AACA200F28673 /* CanteensTable.swift in Sources */,
 				1C8EAC46221801D800A024FE /* Gradient.swift in Sources */,
 				1C9118C3221A9DFC001C4DE8 /* myCell.swift in Sources */,
+				1CA5402D22368E8A00520F3A /* GroupViewController.swift in Sources */,
 				1C9118B42219EC47001C4DE8 /* LibraryViewController.swift in Sources */,
 				1C9118B22219EB96001C4DE8 /* StaffViewController.swift in Sources */,
 				1C8EAC5022184CF000A024FE /* InfoTableViewController.swift in Sources */,
@@ -506,6 +607,7 @@
 				1C27941C221AD35B006D2ABD /* LinkiningController.swift in Sources */,
 				1CAC16252215B9BD000A4DCB /* AppDelegate.swift in Sources */,
 				1C570F72221D41C1008EE90C /* L&FController.swift in Sources */,
+				1CF2D1F52247D9300076C331 /* ListTabBarViewController.swift in Sources */,
 				1CCCF5E8221967D900672E04 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,6 +767,8 @@
 			baseConfigurationReference = 62F4B4AA43940952BAD6E802 /* Pods-IUT Mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IUT Mobile.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -676,7 +780,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iutmobile.zafar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -686,6 +791,8 @@
 			baseConfigurationReference = 2FDF9E43BC439D7F648457F5 /* Pods-IUT Mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IUT Mobile.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -697,7 +804,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iutmobile.zafar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -706,15 +814,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "To Do ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indusbit.To-Do-ListTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUT Mobile.temp_caseinsensitive_rename.app/IUT Mobile.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -722,15 +830,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "To Do ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indusbit.To-Do-ListTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUT Mobile.temp_caseinsensitive_rename.app/IUT Mobile.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};

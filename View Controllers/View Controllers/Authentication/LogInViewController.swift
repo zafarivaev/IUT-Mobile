@@ -54,7 +54,7 @@ class LogInViewController: UIViewController {
             } else {
                 print("Login successful!")
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "goToChat", sender: self)
+                self.performSegue(withIdentifier: "goToGroup", sender: self)
                 
                 // When tapped, set userDefaults to keep the user logged in
                 UserDefaults.standard.set(true, forKey: "isUserLoggedIn")

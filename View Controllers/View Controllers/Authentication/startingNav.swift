@@ -14,13 +14,13 @@ class startingNav: UINavigationController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-     setStatusBarBackgroundColor(color: Colors.white)
+     setStatusBarBackgroundColor(color: UIColor(red: 0.969, green: 0.969, blue: 0.969, alpha: 1.0))
   
     }
     func setStatusBarBackgroundColor(color: UIColor) {
         
         guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
-        statusBar.backgroundColor = Colors.white
+        statusBar.backgroundColor = UIColor(red: 0.969, green: 0.969, blue: 0.969, alpha: 1.0)
     }
 
     /*

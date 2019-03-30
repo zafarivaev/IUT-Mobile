@@ -6,10 +6,15 @@
 //
 
 import UIKit
+import MessageUI
 
-class L_FController: UIViewController {
+class L_FController: UIViewController, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate {
 
     @IBOutlet weak var top: UIView!
+    
+    @IBOutlet weak var subject: UITextField!
+    
+    @IBOutlet weak var body: UITextView!
     
     @IBOutlet weak var sendButton: UIButton!
     
@@ -36,7 +41,49 @@ class L_FController: UIViewController {
         //
     }
     
+    @IBAction func sendMail(_ sender: Any) {
+        let picker = MFMailComposeViewController()
+        picker.mailComposeDelegate = self
+        
+        if let subjectText = subject.text{
+            picker.setSubject(subjectText)
+        }
+        
+        //UIApplication.shared.open(URL(string: "mailto:ivaev2274@gmail.com")! as URL, options: [:], completionHandler: nil)
+        
+        picker.setMessageBody(body.text, isHTML: true)
+        picker.setToRecipients(["Iutmobiledeveloper@gmail.com"])
+        present(picker, animated: true, completion: nil)
+        
+    }
 
+    //MFMailComposeViewControllerDelegate
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    // UITextFieldDelegate
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    
+    // UITextViewDelegate
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool{
+        body.text = textView.text
+        
+        if text == "\n" {
+            textView.resignFirstResponder()
+            
+            return false
+        }
+        return true
+    }
+    
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }

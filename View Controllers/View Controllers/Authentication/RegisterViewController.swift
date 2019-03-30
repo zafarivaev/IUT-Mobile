@@ -29,7 +29,7 @@ class RegisterViewController: UIViewController {
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 0
         button.clipsToBounds = true
-        button.isEnabled = false
+     
         
     }
     
@@ -91,7 +91,7 @@ class RegisterViewController: UIViewController {
                 //Success
                 print("Registration Successful!")
                 SVProgressHUD.dismiss()
-                self.performSegue(withIdentifier: "goToChat", sender: self)
+                self.performSegue(withIdentifier: "goToGroup", sender: self)
                 
                 // When tapped, set userDefaults to keep the user logged in
                 UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
