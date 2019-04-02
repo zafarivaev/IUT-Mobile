@@ -49,8 +49,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         Thread.sleep(forTimeInterval: 1.0)
         
+
        
+        let center = UNUserNotificationCenter.current()
+        center.delegate = self
         
+        
+            
         FirebaseApp.configure()
         
         
@@ -161,6 +166,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         print(userInfo)
         
         completionHandler(UIBackgroundFetchResult.newData)
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void){
+        print("Received local notification \(notification)")
     }
     
     

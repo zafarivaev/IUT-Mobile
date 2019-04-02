@@ -15,7 +15,7 @@ class WidgetCell: UITableViewCell {
     @IBOutlet weak var end: UILabel!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var room: UILabel!
-
+    @IBOutlet weak var professor: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

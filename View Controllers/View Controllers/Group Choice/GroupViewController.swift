@@ -15,18 +15,10 @@ class GroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     @IBAction func choseGroup(_ sender: UIButton) {
         print(choosenGroup)
-        
-     
         UserDefaults.standard.set("\(choosenGroup)", forKey: "chosenGroup")
-    
-        
-        
-        
         UserDefaults.init(suiteName: "group.com.zafar.timetable")?.setValue("\(choosenGroup)", forKey: "chosenGroup")
         
-        UserDefaults.standard.synchronize()
-       
-        if UserDefaults.standard.string(forKey: "chosenType") == "List"{
+        if UserDefaults.standard.string(forKey: "chosenType") == "Lists"{
             
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "firstList") as! ListTabBarViewController
             present(vc, animated: true, completion: nil)
@@ -36,7 +28,7 @@ class GroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         } else {
             performSegue(withIdentifier: "goHome", sender: self)
         }
-        
+        UserDefaults.standard.synchronize()
     }
     @IBAction func notNow(_ sender: UIButton) {
         print(choosenGroup)
@@ -57,7 +49,7 @@ class GroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     var choosenGroup = ""
     
-    let groups = ["Choose Group","CIE18-1", "CIE18-2","CIE18-3","CIE18-4","CIE18-5","CIE18-6", "CIE18-7", "CIE18-8", "CIE18-9", "CIE18-10", "CIE18-11","CIE18-12","CIE18-13","CIE18-14","CIE18-15", "CIE18-16", "CIE18-17","CIE18-18", "CIE18-19", "CIE18-20", "CIE18-21", "CIE18-22", "CIE18-23", "CIE18-24","CIE18-25","CIE18-26","CIE18-27","CIE18-28","SOL18-1","SOL18-2","SOL18-3","SOL18-4"]
+    let groups = ["Choose Group","CIE18-1", "CIE18-2","CIE18-3","CIE18-4","CIE18-5","CIE18-6", "CIE18-7", "CIE18-8", "CIE18-9", "CIE18-10", "CIE18-11","CIE18-12","CIE18-13","CIE18-14","CIE18-15", "CIE18-16", "CIE18-17","CIE18-18", "CIE18-19", "CIE18-20", "CIE18-21", "CIE18-22", "CIE18-23", "CIE18-24","CIE18-25","CIE18-26","CIE18-27","CIE18-28","SOL18-1","SOL18-2","SOL18-3","SOL18-4","CSE17-1","CSE17-2","CSE17-3","CSE17-4","CSE17-5","CSE17-6","CSE17-7","CSE17-8","CSE17-9","CSE17-10","CSE17-11","CSE17-12","CSE17-13","ICE17-1","ICE17-2","SOL17-1","SOL17-2","SOL17-3","SOL17-4"]
     
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -67,6 +59,7 @@ class GroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return groups[row]
     }
+
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return groups.count

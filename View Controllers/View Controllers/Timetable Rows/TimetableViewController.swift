@@ -553,6 +553,21 @@ class TimetableViewController: UITableViewController {
                 return 1
             }}
             
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL18-2"{
+            if section == 0{
+                return 4
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 2
+            } else if section == 3{
+                return 2
+            } else if section == 4{
+                return 1
+            } else {
+                return 1
+            }}
+            
         else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL18-3"{
             if section == 0{
                 return 4
@@ -579,6 +594,291 @@ class TimetableViewController: UITableViewController {
                 return 4
             } else if section == 4{
                 return 1
+            } else {
+                return 1
+            }}
+        
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "ICE17-1"{
+            if section == 0{
+                return 4
+            } else if section == 1{
+                return 5
+            } else if section == 2{
+                return 4
+            } else if section == 3{
+                return 5
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            //
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "ICE17-2"{
+            if section == 0{
+                return 2
+            } else if section == 1{
+                return 2
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 6
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-1"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 2
+            } else if section == 3{
+                return 4
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-2"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 2
+            } else if section == 3{
+                return 4
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-3"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 5
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-4"{
+            if section == 0{
+                return 5
+            } else if section == 1{
+                return 5
+            } else if section == 2{
+                return 4
+            } else if section == 3{
+                return 5
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-5"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 1
+            } else if section == 3{
+                return 6
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-6"{
+            if section == 0{
+                return 4
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 6
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-7"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 4
+            } else if section == 3{
+                return 2
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-8"{
+            if section == 0{
+                return 4
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 4
+            } else if section == 3{
+                return 3
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-9"{
+            if section == 0{
+                return 2
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 4
+            } else if section == 3{
+                return 4
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-10"{
+            if section == 0{
+                return 2
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 4
+            } else if section == 4{
+                return 2
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-11"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 5
+            } else if section == 4{
+                return 2
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-12"{
+            if section == 0{
+                return 5
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 4
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-13"{
+            if section == 0{
+                return 4
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 2
+            } else if section == 3{
+                return 6
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-1"{
+            if section == 0{
+                return 1
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 3
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-2"{
+            if section == 0{
+                return 2
+            } else if section == 1{
+                return 4
+            } else if section == 2{
+                return 2
+            } else if section == 3{
+                return 3
+            } else if section == 4{
+                return 4
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-3"{
+            if section == 0{
+                return 3
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 3
+            } else if section == 4{
+                return 3
+            } else {
+                return 1
+            }}
+            
+        else  if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-4"{
+            if section == 0{
+                return 2
+            } else if section == 1{
+                return 3
+            } else if section == 2{
+                return 3
+            } else if section == 3{
+                return 3
+            } else if section == 4{
+                return 4
             } else {
                 return 1
             }}
@@ -2362,6 +2662,7 @@ class TimetableViewController: UITableViewController {
                     cell.start.text = "12:00"
                     cell.end.text = "13:00"
                     cell.room.text = "B304(C)"
+                    cell.professor.text = "Curator"
                 }
                 if indexPath.row == 3 {
                     cell.title.text = "C2-3"
@@ -3866,6 +4167,2605 @@ class TimetableViewController: UITableViewController {
             }
         
         }
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "ICE17-1"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "SP1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                } else if indexPath.row == 1{
+                    cell.title.text = "AE4-1"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                } else if indexPath.row == 2{
+                    cell.title.text = "OOP2LAB4"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B102(50-Comp)"
+                    cell.professor.text = "Dr. Kirti Seth"
+                }
+                else if indexPath.row == 3{
+                    cell.title.text = "ItEl1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA1"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "P2-3"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "BK2-1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+            } else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "OOP2-5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Dr. Kirti Seth"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA1"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }else if indexPath.row == 3{
+                    cell.title.text = "EM1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                    
+                }}  else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "P2-3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }else if indexPath.row == 1 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                } else if indexPath.row == 2{
+                    cell.title.text = "CaL1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                else if indexPath.row == 3{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                else if indexPath.row == 4{
+                    cell.title.text = "H1"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }}
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "EM1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                else if indexPath.row == 1{
+                    cell.title.text = "ItEl1"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                else if indexPath.row == 2 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+            }}
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "ICE17-2"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                } else if indexPath.row == 1{
+                    cell.title.text = "ItEl1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CA1"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+            } else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CA1"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }else if indexPath.row == 2{
+                    cell.title.text = "EM1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                else if indexPath.row == 1{
+                    cell.title.text = "AE4-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }else if indexPath.row == 2{
+                    cell.title.text = "CaL1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                else if indexPath.row == 3{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "BK2-2"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B207(40)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }}
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "EM1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-2"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                else if indexPath.row == 2{
+                    cell.title.text = "ItEl1"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                else if indexPath.row == 3 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+            }
+        }
+            
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-1"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }else if indexPath.row == 1{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }  else if indexPath.row == 2{
+                    cell.title.text = "BK2-3"
+                    cell.start.text = "15:00"
+                    cell.end.text = "17:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+            } else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-2"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }else if indexPath.row == 1{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }  else if indexPath.row == 2{
+                    cell.title.text = "BK2-3"
+                    cell.start.text = "15:00"
+                    cell.end.text = "17:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-3"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }else if indexPath.row == 1{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }  else if indexPath.row == 2{
+                    cell.title.text = "BK2-3"
+                    cell.start.text = "15:00"
+                    cell.end.text = "17:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C1-1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "C1-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-4"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-4"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }else if indexPath.row == 3{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-4"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-4"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "C2-2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "C1-2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "EM2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "AE2-8"
+                    cell.start.text = "16:00"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B207(40)"
+                    cell.professor.text = "Pr. Shakhnoza Turgunova"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "C2-2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE2-8"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Shakhnoza Turgunova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-5"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BK2-5"
+                    cell.start.text = "11:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-5"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "OOP2LAB7"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Dr. Kirti Seth"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 5{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "OOP2-2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Dr. Kirti Seth"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-6"{
+            if indexPath.section == 0{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-5"
+                    cell.start.text = "11:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Kim Youngham"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "P2-2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "H2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-5"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:00"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA2"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "CaL2"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 5{
+                    cell.title.text = "P2-2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-7"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-6"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA3"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "BK2-6"
+                    cell.start.text = "11:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-6"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "H3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CA3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-7"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-6"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA3"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "BK2-6"
+                    cell.start.text = "11:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-6"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Rano Neyaskulova"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "H3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CA3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-8"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "AE2-10"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Shakhnoza Turgunova"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-4"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-7"
+                    cell.start.text = "13:00"
+                    cell.end.text = "14:30"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA3"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "EM4"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "BK2-7"
+                    cell.start.text = "9:30"
+                    cell.end.text = "11:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "EM4"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "H3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-7"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CA3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE2-10"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Shakhnoza Turgunova"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-9"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "P2-1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA3"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "EM4"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "9:30"
+                    cell.end.text = "11:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM4"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-8"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "H3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "P2-1"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Khusniddin Olimov"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CA3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)2"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-10"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA3"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "EM4"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "9:30"
+                    cell.end.text = "11:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM4"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-8"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "SP3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "H3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CA3"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-11"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CA4"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CA4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "EM4"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "9:30"
+                    cell.end.text = "11:00"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "EM4"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-8"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "AE4-8"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "H4"
+                    cell.start.text = "17:30"
+                    cell.end.text = "19:00"
+                    cell.room.text = "B201(60)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-12"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "EM5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA4"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "C1-2"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Dr. Bakhodir Akhmedov"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CA4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "EM5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-9"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 2 {
+                    cell.title.text = "C1-2"
+                    cell.start.text = "16:00"
+                    cell.end.text = "17:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "H4"
+                    cell.start.text = "17:30"
+                    cell.end.text = "19:00"
+                    cell.room.text = "B201(60)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "AE4-9"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B207(40)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK2-9"
+                    cell.start.text = "14:00"
+                    cell.end.text = "16:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 3 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "CSE17-13"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "EM5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "CA4"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "CA4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Dr. Andrey Dragunov"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH3"
+                    cell.start.text = "12:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B304(C)"
+                }
+                
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "EM5"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B202(80)"
+                    cell.professor.text = "Pr. Rustam Turdibaev"
+                }
+                if indexPath.row == 1 {
+                    cell.title.text = "C1-1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "AE4-10"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "C2-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+                if indexPath.row == 2 {
+                    cell.title.text = "SP4"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Dr. Abdul Rakheem Naseer"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "IP(CSE)3"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "101(Comp-40)"
+                    cell.professor.text = "Pr. Sarvar Abdullaev"
+                }
+                if indexPath.row == 4{
+                    cell.title.text = "C1-1"
+                    cell.start.text = "16:30"
+                    cell.end.text = "18:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Bakhodir Akhmedov"
+                }
+                if indexPath.row == 5{
+                    cell.title.text = "H4"
+                    cell.start.text = "17:30"
+                    cell.end.text = "19:00"
+                    cell.room.text = "B201(60)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "CaL4"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "202(80)"
+                    cell.professor.text = "Pr. Chogkoo An"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BK2-10"
+                    cell.start.text = "11:30"
+                    cell.end.text = "13:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Olga Kim"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "AE4-10"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Nozima Ergasheva"
+                }
+                if indexPath.row == 3 {
+                    cell.title.text = "C2-1"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B209(80)"
+                    cell.professor.text = "Dr. Steftcho Dokov"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-1"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "BE4-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Dr. Joseph Hoffman"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "FT1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "E1"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH7"
+                    cell.start.text = "13:30"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Abhijit Tarawade"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "PoA1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "BE4-1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Dr. Joseph Hoffman"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "PoA1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BS1"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BS1"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "HSOL1"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "FT1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK SOL1"
+                    cell.start.text = "13:00"
+                    cell.end.text = "15:00"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Luiza Tsay"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "E1"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-2"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "BE4-2"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Dr. Joseph Hoffman"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BK SOL1"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Luiza Tsay"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "FT1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "E1"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH7"
+                    cell.start.text = "13:30"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Abhijit Tarawade"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "PoA1"
+                    cell.start.text = "14:30"
+                    cell.end.text = "16:00"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "PoA1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BS1"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BS1"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "HSOL1"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "605(50)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "FT1"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BE4-2"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Dr. Joseph Hoffman"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "E1"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "606(50)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-3"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "E2"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BS2"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BK SOL3"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:30"
+                    cell.room.text = "513(45)"
+                    cell.professor.text = "Pr. Luiza Tsay"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "PoA2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "CH7"
+                    cell.start.text = "13:30"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Abhijit Tarawade"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BE4-3"
+                    cell.start.text = "15:00"
+                    cell.end.text = "16:30"
+                    cell.room.text = "B203(40)"
+                    cell.professor.text = "Pr. Byers David Mcminn"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "FT2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BE4-3"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B207(40)"
+                    cell.professor.text = "Pr. Byers David Mcminn"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BS2"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "FT2"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "HSOL2"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "E2"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "PoA2"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+            }
+        }
+            
+        else if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL17-4"{
+            if indexPath.section == 0{
+                if indexPath.row == 0{
+                    cell.title.text = "E2"
+                    cell.start.text = "12:30"
+                    cell.end.text = "14:00"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BS2"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            }
+            else if indexPath.section == 1{
+                if indexPath.row == 0{
+                    cell.title.text = "BE4-4"
+                    cell.start.text = "10:00"
+                    cell.end.text = "11:30"
+                    cell.room.text = "308(48)"
+                    cell.professor.text = "Pr. Byers David Mcminn"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "PoA2"
+                    cell.start.text = "12:00"
+                    cell.end.text = "13:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "CH7"
+                    cell.start.text = "13:30"
+                    cell.end.text = "14:30"
+                    cell.room.text = "203(90)"
+                    cell.professor.text = "Pr. Abhijit Tarawade"
+                }
+            }
+            else if indexPath.section == 2{
+                if indexPath.row == 0{
+                    cell.title.text = "FT2"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B210(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "BE4-4"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "608(45)"
+                    cell.professor.text = "Pr. Byers David Mcminn"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "BS2"
+                    cell.start.text = "15:30"
+                    cell.end.text = "17:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+            } else if indexPath.section == 3{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "FT2"
+                    cell.start.text = "10:30"
+                    cell.end.text = "12:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Lee Seulki"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "HSOL2"
+                    cell.start.text = "14:00"
+                    cell.end.text = "15:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Qahramon Yakubov"
+                }
+            }
+            else if indexPath.section == 4{
+                if indexPath.row == 0{
+                    cell.title.text = "ItGE1"
+                    cell.start.text = "9:00"
+                    cell.end.text = "10:30"
+                    cell.room.text = "B101(160)"
+                    cell.professor.text = "Pr. Jong Young Lee"
+                }
+                if indexPath.row == 1{
+                    cell.title.text = "E2"
+                    cell.start.text = "11:00"
+                    cell.end.text = "12:30"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Azizbek Marakhimov"
+                }
+                if indexPath.row == 2{
+                    cell.title.text = "PoA2"
+                    cell.start.text = "13:30"
+                    cell.end.text = "15:00"
+                    cell.room.text = "B201(80)"
+                    cell.professor.text = "Pr. Choi Won Gun"
+                }
+                if indexPath.row == 3{
+                    cell.title.text = "BK SOL4"
+                    cell.start.text = "15:00"
+                    cell.end.text = "17:00"
+                    cell.room.text = "607(50)"
+                    cell.professor.text = "Pr. Luiza Tsay"
+                }
+            }
+        }
         
         //Setting colors for elements in each section
         if indexPath.section == 0 {
@@ -3895,6 +6795,8 @@ class TimetableViewController: UITableViewController {
             cell.room.textColor = Colors.teal
         }
         
+        
+        
         tableView.rowHeight = 70.0
         cell.verticalBar.backgroundColor = myTitles[indexPath.section].color
         return cell
@@ -3906,7 +6808,14 @@ class TimetableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+        if UserDefaults.standard.string(forKey: "chosenGroup") == "SOL18-4"{
+            if indexPath.section == 4{
+                if indexPath.row == 0{
         moveConfetti()
+                }
+            }
+        }
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {

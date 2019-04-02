@@ -45,6 +45,8 @@ class CategoryViewController: UITableViewController {
         }
     }
     
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 80.0
@@ -103,7 +105,6 @@ class CategoryViewController: UITableViewController {
  
     override func viewWillAppear(_ animated: Bool) {
         setStatusBarBackgroundColor(color: Colors.inhaColor)
-        
     }
     
 //    @IBAction func addButtonPressed(_ sender: Any) {

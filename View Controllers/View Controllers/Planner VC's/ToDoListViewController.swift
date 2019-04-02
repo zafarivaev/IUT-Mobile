@@ -7,9 +7,10 @@
 
 import UIKit
 import RealmSwift
+import UserNotifications
 import ChameleonFramework
 
-class ToDoListViewController: SwipeTableViewController {
+class ToDoListViewController: SwipeTableViewController, ItemDetailViewControllerDelegate {
     
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -27,6 +28,12 @@ class ToDoListViewController: SwipeTableViewController {
         
         guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
         statusBar.backgroundColor = navigationController?.navigationBar.barTintColor
+    }
+    
+    func setStatusBarBackgroundColorInha(color: UIColor) {
+        
+        guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
+        statusBar.backgroundColor = Colors.inhaColor
     }
     
     
@@ -48,10 +55,11 @@ class ToDoListViewController: SwipeTableViewController {
  
     override func viewWillDisappear(_ animated: Bool) {
         
-        setStatusBarBackgroundColor(color: Colors.inhaColor)
+        setStatusBarBackgroundColorInha(color: Colors.inhaColor)
         updateNavBar(withHexCode: "2967AB")
         
     }
+
     
     //MARK: - Nav Bar Setup Methods
     func updateNavBar(withHexCode colorHexCode: String){
@@ -78,6 +86,7 @@ class ToDoListViewController: SwipeTableViewController {
         
         if item.done{
             label.text = "✅"
+            
         }
         else{
             label.text = ""
@@ -132,47 +141,46 @@ class ToDoListViewController: SwipeTableViewController {
         
     }
     
+    
     // MARK: Add new Items
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
-        //BEGIN
-        var textField = UITextField()
         
-        let alert = UIAlertController(title: "Add New Todoey Item", message: "", preferredStyle: .alert)
-        
-        let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
-            // what'll happen once click happened
-            
-            if let currentCategory = self.selectedCategory {
-                do {
-                    try self.realm.write {
-                        let newItem = Item()
-                        newItem.title = textField.text!
-                        newItem.dateCreated = Date()
-                        currentCategory.items.append(newItem)
-                    }
-                } catch {
-                    print(error)
-                }
-            }
-            
-            self.tableView.reloadData()
-        }
-        
-        alert.addTextField { (alertTextField) in
-            alertTextField.placeholder = "Create new Item"
-            textField = alertTextField
-            
-        }
-        
-        alert.addAction(action)
-        
-        present(alert, animated: true, completion: nil)
         
         //END
     }
     
+    //CODE FOR SAVING
     
+    func dataReceived(item: Item){
+            if let currentCategory = self.selectedCategory {
+                do {
+                    try self.realm.write {
+//                            let newItem = Item()
+//                            newItem.title = name
+//                            newItem.dateCreated = Date()
+//
+//                            newItem.shouldRemind = should
+//                            newItem.whenRemind = when
+//                            newItem.itemID = identifier
+//                            print("The itemID: \(newItem.itemID)")
+//                        if newItem.shouldRemind{
+//                            newItem.scheduleNotification()
+//                        }
+                        
+                            currentCategory.items.append(item)
+                        
+                        }
+                    
+                } catch {
+                    print(error)
+                }
+            }
+        
+        tableView.reloadData()
+        
+        dismiss(animated: true, completion: nil)
+    }
     
     func loadItems(){
         
@@ -186,16 +194,43 @@ class ToDoListViewController: SwipeTableViewController {
         
         super.updateModel(at: indexPath)
         
-        if let itemForDeletion = self.todoItems?[indexPath.row] {
+        let itemForDeletion = self.todoItems?[indexPath.row]
+        removeNotification(id: (itemForDeletion?.itemID)!)
+        if itemForDeletion != nil{
+            
             do{
                 try self.realm.write {
-                    self.realm.delete(itemForDeletion)
+                    self.realm.delete(itemForDeletion!)
+                   
                 }
             } catch {
                 print(error)
             }
         }
+            
+        
+        
     }
+    
+    func removeNotification(id: Int){
+        let center = UNUserNotificationCenter.current()
+        center.removePendingNotificationRequests(withIdentifiers: ["\(id)"])
+    }
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        //1
+        if segue.identifier == "add"{
+            //2
+            let navigationController = segue.destination as! UINavigationController
+            //3
+            let controller = navigationController.topViewController as! ItemDetailViewController
+            //4
+            controller.delegate = self
+        }
+    }
+   
+    
 }
 
 //MARK: - Search Bar Methods

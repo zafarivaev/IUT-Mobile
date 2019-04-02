@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C05E01C22539E58001879D9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05E01B22539E58001879D9 /* DataModel.swift */; };
 		1C072E022230DAA000C30E30 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C072E012230DAA000C30E30 /* TabBarViewController.swift */; };
 		1C072E042230DF9100C30E30 /* startingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C072E032230DF9100C30E30 /* startingNav.swift */; };
 		1C27941C221AD35B006D2ABD /* LinkiningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C27941B221AD35B006D2ABD /* LinkiningController.swift */; };
@@ -64,6 +65,8 @@
 		1CD0E57F222D8B7500A689BE /* ExamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */; };
 		1CD0E581222D8C5200A689BE /* ExamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0E580222D8C5200A689BE /* ExamsCell.swift */; };
 		1CD0E585222DA4AE00A689BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD0E584222DA4AE00A689BE /* GoogleService-Info.plist */; };
+		1CE1F26222520BFC00CAB35A /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1F26122520BFC00CAB35A /* ItemDetailViewController.swift */; };
+		1CE1F2642252223300CAB35A /* navigationController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE1F2632252223300CAB35A /* navigationController2.swift */; };
 		1CF2D1F32247D5030076C331 /* TimetableApperanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2D1F22247D5030076C331 /* TimetableApperanceController.swift */; };
 		1CF2D1F52247D9300076C331 /* ListTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2D1F42247D9300076C331 /* ListTabBarViewController.swift */; };
 		DEE2F51B0ACB46E09E6F0746 /* Pods_IUT_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB290695CA7ECB75CFDA5FAD /* Pods_IUT_Mobile.framework */; };
@@ -101,6 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C05E01B22539E58001879D9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		1C072E012230DAA000C30E30 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1C072E032230DF9100C30E30 /* startingNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startingNav.swift; sourceTree = "<group>"; };
 		1C1A87B822342842006F35CC /* IUT Mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IUT Mobile.entitlements"; sourceTree = "<group>"; };
@@ -163,7 +167,9 @@
 		1CD0E57E222D8B7500A689BE /* ExamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsViewController.swift; sourceTree = "<group>"; };
 		1CD0E580222D8C5200A689BE /* ExamsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsCell.swift; sourceTree = "<group>"; };
 		1CD0E584222DA4AE00A689BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUT MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE1F2602251ED6400CAB35A /* IUT MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUT MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE1F26122520BFC00CAB35A /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		1CE1F2632252223300CAB35A /* navigationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationController2.swift; sourceTree = "<group>"; };
 		1CF2D1F22247D5030076C331 /* TimetableApperanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableApperanceController.swift; sourceTree = "<group>"; };
 		1CF2D1F42247D9300076C331 /* ListTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTabBarViewController.swift; sourceTree = "<group>"; };
 		2FDF9E43BC439D7F648457F5 /* Pods-IUT Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IUT Mobile.release.xcconfig"; path = "Target Support Files/Pods-IUT Mobile/Pods-IUT Mobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -309,7 +315,9 @@
 			isa = PBXGroup;
 			children = (
 				1C7D5AF3223E40B900846127 /* navigationController.swift */,
+				1CE1F2632252223300CAB35A /* navigationController2.swift */,
 				1CADDF1F222EEE1A0072E413 /* ToDoListViewController.swift */,
+				1CE1F26122520BFC00CAB35A /* ItemDetailViewController.swift */,
 				1CADDF21222EEE240072E413 /* CategoryViewController.swift */,
 				1CADDF23222EEE350072E413 /* SwipeTableViewController.swift */,
 			);
@@ -321,6 +329,7 @@
 			children = (
 				1CADDF1B222EEE000072E413 /* Category.swift */,
 				1CADDF1D222EEE0A0072E413 /* Item.swift */,
+				1C05E01B22539E58001879D9 /* DataModel.swift */,
 			);
 			path = "Planner Data Model";
 			sourceTree = "<group>";
@@ -395,8 +404,8 @@
 				C0CBE31BE45B34FAC3A2D518 /* Pods */,
 				1C35319D224F9A0300C447E0 /* Timetable */,
 				D018CC71E031D83471785AC9 /* Frameworks */,
-				1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */,
 				1C35319A224F9A0200C447E0 /* Timetable.appex */,
+				1CE1F2602251ED6400CAB35A /* IUT MobileTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -465,7 +474,7 @@
 			);
 			name = "IUT MobileTests";
 			productName = "To Do ListTests";
-			productReference = 1CED0B5C224249FE0093F0FA /* IUT MobileTests.xctest */;
+			productReference = 1CE1F2602251ED6400CAB35A /* IUT MobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -484,6 +493,9 @@
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
@@ -684,6 +696,8 @@
 				1C279420221ADEB1006D2ABD /* Table2.swift in Sources */,
 				1CADDEF4222DA9810072E413 /* RegisterViewController.swift in Sources */,
 				1CAC162A2215CD2E000A4DCB /* MenuCollectionViewCell.swift in Sources */,
+				1CE1F2642252223300CAB35A /* navigationController2.swift in Sources */,
+				1CE1F26222520BFC00CAB35A /* ItemDetailViewController.swift in Sources */,
 				1C30A416221AAE8900F28673 /* canCell.swift in Sources */,
 				1C43E01F22467D430098D6E1 /* TimetableViewController.swift in Sources */,
 				1CADDF20222EEE1A0072E413 /* ToDoListViewController.swift in Sources */,
@@ -698,6 +712,7 @@
 				1C43E02422468C1B0098D6E1 /* ViewController.swift in Sources */,
 				1C43E01D22467D330098D6E1 /* TimetableCell.swift in Sources */,
 				1CAC16232215B9BD000A4DCB /* CollectionViewCell.swift in Sources */,
+				1C05E01C22539E58001879D9 /* DataModel.swift in Sources */,
 				1CADDF1C222EEE000072E413 /* Category.swift in Sources */,
 				1CD0E57F222D8B7500A689BE /* ExamsViewController.swift in Sources */,
 				1C7D5AF6223EA1D300846127 /* RequestViewController.swift in Sources */,
