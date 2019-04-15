@@ -5,10 +5,10 @@
 
 
 
-![App Screenshots](resources/AllScreens.png)
+![App Screenshots](resources/Simulator Screen Shot - iPhone X - 2019-03-31 at 21.28.17.png,Simulator Screen Shot - iPhone X - 2019-03-31 at 21.28.17.png)
 
 [![App Store](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](http://appstore.com/htwdresden)
-
+AllScreens.png
 ---
 
 ## Getting started
