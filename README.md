@@ -6,6 +6,7 @@
 
 
 ![App Screenshots](resources/merge_from_ofoct-3.jpg)
+![](resources/merge2.jpg)
 
 
 [![App Store](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](http://appstore.com/htwdresden)
