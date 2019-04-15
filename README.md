@@ -22,4 +22,4 @@ AllScreens.png
 The 'IUT Mobile iOS App' is a student-initiated project that enables students of the [INHA University](https://www.inha.uz) to access their timetable, mail, e-Class and other important sources more easily.
 
 ## Questions
-If you have questions about any aspect of this project, please feel free to [open an issue](https://github.com/HTWDD/htwcampus/issues/new). We'd love to hear from you!
+If you have questions about any aspect of this project, please feel free to [open an issue](https://github.com/zafarivaev/IUT-Mobile/issues/new). We'd love to hear from you!
