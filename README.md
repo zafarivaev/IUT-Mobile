@@ -9,8 +9,8 @@
 ![](resources/merge2.jpg)
 
 
-[![App Store](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](http://appstore.com/htwdresden)
-AllScreens.png
+[![App Store](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](https://itunes.apple.com/us/app/iut-mobile/id1457086006)
+
 ---
 
 ## Getting started
