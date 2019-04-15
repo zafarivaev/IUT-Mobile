@@ -5,7 +5,7 @@
 
 
 
-![App Screenshots](resources/1.jpg =250x)
+![App Screenshots](resources/1.jpg =250)
 
 
 [![App Store](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)](http://appstore.com/htwdresden)
