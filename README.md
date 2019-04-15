@@ -14,8 +14,8 @@
 ## Getting started
 1. [Download](https://developer.apple.com/xcode/download/) the latest Xcode release.
 2. Clone this repository.
-3. If you haven't already, install [Carthage](https://github.com/Carthage/Carthage).
-4. Run `carthage bootstrap --platform iOS` from the command line to clone and build dependencies.
+3. If you haven't already, install CocoaPods
+4. Run `pod install` from the command line to build dependencies.
 
 ## About
 The 'IUT Mobile iOS App' is a student-initiated project that enables students of the [INHA University](https://www.inha.uz) to access their timetable, mail, e-Class and other important sources more easily.
